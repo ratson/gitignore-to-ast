@@ -1,0 +1,25 @@
+{
+  "name": "gitignore-to-ast",
+  "version": "0.0.0",
+  "description": "Parse .gitignore file to AST",
+  "scripts": {
+    "lint": "eslint --ext js,md .",
+    "test": "ava",
+    "posttest": "npm run lint"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.20.0",
+    "eslint": "^4.1.0",
+    "eslint-config-concise": "^0.9.0",
+    "eslint-plugin-ava": "^4.2.1"
+  },
+  "repository": "ratson/gitignore-to-ast",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "index.js"
+  ]
+}
