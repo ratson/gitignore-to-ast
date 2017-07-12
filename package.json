@@ -1,6 +1,6 @@
 {
   "name": "gitignore-to-ast",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Parse .gitignore file to AST",
   "scripts": {
     "lint": "eslint --ext js,md .",
